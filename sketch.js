@@ -38,7 +38,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 255;
+    b = 0;
   }
   if (key === 'd'){
     stroke(255, 255, 0);

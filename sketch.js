@@ -1,8 +1,8 @@
 let img;
 var increase = 5;
-var r = 255;
-var g = 64;
-var b = 0;
+let r;
+let g;
+let b;
 let d;
 let c;
 function preload() {

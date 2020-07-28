@@ -5,7 +5,7 @@ var g = 64;
 var b = 0;
 let c;
 function preload() {
-loadImage('assets/drawing-background.jpg');
+img = loadImage('https://alicia-breinke.github.io/drawingproject-mentalhealth/assets/drawing-background.jpg');
 }
 function setup(){
   c = createCanvas(975, 506);

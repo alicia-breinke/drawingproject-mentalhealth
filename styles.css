@@ -10,9 +10,3 @@ h1{
   font-family: sans-serif;
   font-size: 30px;
 }
-
-.bottom {
-  position: absolute;
-  bottom: 10px;
-  text-align: left;
-}

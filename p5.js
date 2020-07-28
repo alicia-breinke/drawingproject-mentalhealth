@@ -65726,25 +65726,6 @@
                   }
                 };
 
-                // Set crossOrigin in case image is served with CORS headers.
-                // This will let us draw to the canvas without tainting it.
-                // See https://developer.mozilla.org/en-US/docs/HTML/CORS_Enabled_Image
-                // When using data-uris the file will be loaded locally
-                // so we don't need to worry about crossOrigin with base64 file types.
-                if (path.indexOf('data:image/') !== 0) {
-                  img.crossOrigin = 'Anonymous';
-                }
-                // start loading the image
-                img.src = path;
-              }
-              pImg.modified = true;
-            });
-            return pImg;
-          };
-
-          /**
-           * Helper function for loading GIF-based images
-           */
           function _createGif(
             arrayBuffer,
             pImg,

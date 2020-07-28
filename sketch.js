@@ -1,23 +1,23 @@
 let img;
 var increase = 5;
-var r = 244;
+var r = 244;  
 var g = 64;
 var b = 0;
 let c;
 function preload() {
-img = loadImage('https://alicia-breinke.github.io/drawingproject-mentalhealth/assets/drawing-background.jpg');
+img = loadImage('assets/drawing-background.jpg');
 }
 function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
-  loadImage(0, 0);
+  image(img, 50, 50);
   stroke('rgb(244, 64, 75)');
 }
 
 function draw () {
     strokeWeight(increase);
    if (mouseIsPressed) {
-  line(mouseX, mouseY, pmouseX, pmouseY);
+  line(mouseX, mouseY, pmouseX, pmouseY);     
   stroke(r, g, b, 100);
    }
 }

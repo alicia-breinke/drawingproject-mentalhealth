@@ -3,7 +3,7 @@ var increase = 5;
 var r = 244;
 var g = 64;
 var b = 0;
-var d = rgb(255, 255, 0);
+let d;
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');
@@ -38,7 +38,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 244;
+    b = 0;
   }
   if (key === 'd'){
     r = 255;

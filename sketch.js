@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
 var r = 255;
-var g = 255;
+var g = 64;
 var b = 0;
 let d;
 let c;
@@ -32,7 +32,7 @@ function keyPressed() {
   }
   if (key === 'g') {
     r = 0;
-    g = 255;
+    g = 64;
     b = 0;
   }
   if (key === 'b') {

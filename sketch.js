@@ -1,6 +1,6 @@
 let img;
 var increase = 5;
-var r = 244;  
+var r = 244;
 var g = 64;
 var b = 0;
 let c;
@@ -17,7 +17,7 @@ function setup(){
 function draw () {
     strokeWeight(increase);
    if (mouseIsPressed) {
-  line(mouseX, mouseY, pmouseX, pmouseY);     
+  line(mouseX, mouseY, pmouseX, pmouseY);
   stroke(r, g, b, 100);
    }
 }
@@ -34,6 +34,11 @@ function keyPressed() {
     r = 0;
     g = 114;
     b = 0;
+  }
+  if (key === 'b') {
+    r = 0;
+    g = 0;
+    b = 244;
   }
   if (key === 'i'){
   increase += 5;

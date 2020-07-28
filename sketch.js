@@ -35,7 +35,7 @@ function keyPressed() {
   }
   if (key === 'g') {
     r = 0;
-    g = 114;
+    g = 64;
     b = 0;
   }
   if (key === 'b') {

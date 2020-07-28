@@ -2,7 +2,7 @@ let img;
 var increase = 5;
 var r = 244;
 var g = 64;
-var b = 0;
+var b = 255;
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');
@@ -25,9 +25,9 @@ function draw () {
 function keyPressed() {
   if (key === 'r') {
     print("hello");
-    r = 255;
-    g = 114;
-    b = 0;
+    r = 244;
+    g = 64;
+    b = 75;
     print(r);
   }
   if (key === 'g') {
@@ -38,7 +38,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 244;
+    b = 255;
   }
   if (key === 'i'){
   increase += 5;

@@ -36,10 +36,7 @@ function keyPressed() {
     b = 0;
   }
   if (key === 'b') {
-    r = 0;
-    g = 180;
-    b = 255;
-  }
+    stroke(0, 180, 255);
   if (key === 'd'){
     stroke(255, 255, 0);
   }

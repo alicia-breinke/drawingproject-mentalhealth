@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
-var r = 256;
-var g = 256;
+var r = 244;
+var g = 64;
 var b = 0;
 let c;
 function preload() {
@@ -24,7 +24,6 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    print("hello");
     r = 244;
     g = 64;
     b = 75;

@@ -1,6 +1,6 @@
 let img;
 var increase = 5;
-var r = 244;
+var r = 255;
 var g = 255;
 var b = 255;
 let d;
@@ -25,7 +25,7 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 244;
+    r = 255;
     g = 0;
     b = 0;
     print(r);
@@ -38,7 +38,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 0;
+    b = 255;
   }
   if (key === 'd'){
     stroke(255, 255, 0);

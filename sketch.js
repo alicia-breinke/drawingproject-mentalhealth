@@ -25,18 +25,14 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 255;
-    g = 0;
-    b = 0;
-    print(r);
-  }
+    stroke(255, 0 , 0);
+    }
   if (key === 'g') {
-    r = 0;
-    g = 64;
-    b = 0;
+    stroke(0, 64, 0);
   }
   if (key === 'b') {
     stroke(0, 180, 255);
+  }
   if (key === 'd'){
     stroke(255, 255, 0);
   }

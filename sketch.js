@@ -1,5 +1,5 @@
 let img;
-var r = 255;
+var r = 244;
 var g = 64;
 var b = 0;
 let d;
@@ -28,8 +28,8 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 255;
-    g = 114;
+    r = 244;
+    g = 0;
     b = 0;
     print(r);
   }

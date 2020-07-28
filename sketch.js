@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
-var r = 255;
-var g = 255;
+var r = 256;
+var g = 256;
 var b = 0;
 let c;
 function preload() {

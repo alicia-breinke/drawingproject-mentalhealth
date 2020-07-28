@@ -10,6 +10,7 @@ img = loadImage('https://alicia-breinke.github.io/drawingproject-mentalhealth/as
 function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
+  img(image, 975, 506);
   stroke('rgb(244, 64, 75)');
 }
 

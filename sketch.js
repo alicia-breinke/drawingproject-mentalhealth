@@ -1,10 +1,11 @@
 let img;
-var increase = 5;
 let r;
 let g;
 let b;
-let d;
+let y;
 let c;
+var increase = 5;
+var decrease = 5;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');
 }
@@ -33,11 +34,14 @@ function keyPressed() {
   if (key === 'b') {
     stroke(0, 180, 255);
   }
-  if (key === 'd'){
+  if (key === 'y'){
     stroke(255, 255, 0);
   }
   if (key === 'i'){
   increase += 5;
+  }
+  if (key === 'd'){
+    decrease += 5;
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

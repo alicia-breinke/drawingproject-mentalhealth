@@ -39,6 +39,11 @@ function keyPressed() {
     g = 0;
     b = 0;
   }
+  if (key === 'd'){
+    r = 255;
+    g = 255;
+    b = 0;
+  }
   if (key === 'i'){
   increase += 5;
   }

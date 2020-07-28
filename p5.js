@@ -65731,7 +65731,7 @@
                 // See https://developer.mozilla.org/en-US/docs/HTML/CORS_Enabled_Image
                 // When using data-uris the file will be loaded locally
                 // so we don't need to worry about crossOrigin with base64 file types.
-                if (path.index('data:image/') !== 0) {
+                if (path.indexOf('data:image/') !== 0) {
                   img.crossOrigin = 'Anonymous';
                 }
                 // start loading the image

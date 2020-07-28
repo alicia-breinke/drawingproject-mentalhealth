@@ -1,8 +1,9 @@
 let img;
 var increase = 5;
-var r = 255;
-var g = 200;
+var r = 244;
+var g = 64;
 var b = 0;
+let y;
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');

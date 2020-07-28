@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
-var r = 244;
-var g = 64;
+var r = 255;
+var g = 255;
 var b = 0;
 let c;
 function preload() {
@@ -11,7 +11,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke('rgb(255, 200, 0)');
+  stroke('rgb(255, 255, 0)');
 }
 
 function draw () {

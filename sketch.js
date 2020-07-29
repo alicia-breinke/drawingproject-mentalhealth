@@ -41,12 +41,10 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 64;
+    b = 0;
   }
   if (key === 'y'){
-    r = 255;
-    g = 255;
-    b = 0;
+    stroke(244, 244, 0);
   }
   if (key === 'i') {
     increase += 5;

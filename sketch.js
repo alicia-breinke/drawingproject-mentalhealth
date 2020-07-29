@@ -3,7 +3,7 @@ var increase = 5;
 var decrease = 5;
 var r = 245;
 var g = 64;
-var b = 0;
+var b = 245;
 let d;
 let c;
 function preload() {
@@ -27,7 +27,7 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 255;
+    r = 245;
     g = 0;
     b = 0;
     print(r);
@@ -40,7 +40,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 0;
+    b = 245;
   }
   if (key === 'd'){
     r = 245;

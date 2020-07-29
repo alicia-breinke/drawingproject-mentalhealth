@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
 var decrease = 5;
-var r = 240;
+var r = 100;
 var g = 64;
 var b = 0;
 let d;
@@ -13,7 +13,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke ('rgb(64, 64, 0)');
+  stroke ('rgb(100, 100, 0)');
 }
 
 function draw () {
@@ -21,7 +21,7 @@ function draw () {
     strokeWeight(decrease);
    if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
-  stroke(r, g, b);
+  stroke(r, g, b, 100);
    }
 }
 

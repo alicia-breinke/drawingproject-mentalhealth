@@ -20,7 +20,7 @@ function draw () {
     strokeWeight(increase);
    if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
-  stroke('rgb(255, 255, 0)');
+  stroke('rgb(244, 244, 0)');
    }
 }
 
@@ -39,7 +39,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 244;
+    b = 0;
   }
   if (key === 'd'){
     r = 255;

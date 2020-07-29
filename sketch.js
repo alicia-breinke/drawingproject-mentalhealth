@@ -3,7 +3,7 @@ var increase = 5;
 var decrease = 5;
 var r = 255;
 var g = 64;
-var b = 0;
+var b = 255;
 let d;
 let c;
 function preload() {
@@ -40,7 +40,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 0;
+    b = 255;
   }
   if (key === 'd'){
     r = 245;

@@ -29,10 +29,9 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 255;
+    r = 244;
     g = 0;
     b = 0;
-    print(r);
   }
   if (key === 'g') {
     r = 0;

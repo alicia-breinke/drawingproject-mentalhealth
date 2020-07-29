@@ -4,7 +4,7 @@ var decrease = 5;
 var r = 255;
 var g = 64;
 var b = 0;
-var d = '(255, 255, 0)'
+var d = 'rgb(255, 255, 0)';
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');

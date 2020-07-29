@@ -19,9 +19,7 @@ function draw () {
   strokeWeight(increase);
     if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
-  r = 244;
-  g = 244;
-  b = 0;
+  stroke(244, 244, 0);
    }
 }
 

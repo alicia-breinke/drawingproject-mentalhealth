@@ -3,7 +3,7 @@ var increase = 5;
 var decrease = 5;
 var r = 244;
 var g = 64;
-var b = 30;
+var b = 0;
 let y;
 var i = increase;
 var d = decrease;
@@ -15,7 +15,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke ('rgb(244, 244, 0)');
+  stroke(244, 244, 0);
 }
 
 function draw () {
@@ -41,7 +41,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 30;
+    b = 0;
   }
   if (key === 'y'){
     r = 255;

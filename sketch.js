@@ -27,7 +27,7 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 240;
+    r = 100;
     g = 0;
     b = 0;
     print(r);

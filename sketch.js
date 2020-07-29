@@ -18,6 +18,7 @@ function setup(){
 
 function draw () {
     strokeWeight(increase);
+    strokeWeight(decrease);
    if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
   stroke(r, g, b);
@@ -47,9 +48,9 @@ function keyPressed() {
     b = 0;
   }
   if (keyCode === 'UP_ARROW') {
-    strokeWeight increase += 5;
+    increase += 5;
   } else if (keyCode === 'DOWN_ARROW') {
-    strokeWeight decrease -= 5;
+    decrease -= 5;
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

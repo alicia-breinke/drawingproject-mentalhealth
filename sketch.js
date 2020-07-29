@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
 var decrease = 5;
-var r = 100;
+var r = 244;
 var g = 64;
 var b = 0;
 let d;

@@ -47,9 +47,9 @@ function keyPressed() {
     b = 0;
   }
   if (keyCode === 'UP_ARROW') {
-    increase += 5;
+    strokeWeight increase(5);
   } else if (keyCode === 'DOWN_ARROW') {
-    decrease -= 5;
+    strokeWeight decrease(5);
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

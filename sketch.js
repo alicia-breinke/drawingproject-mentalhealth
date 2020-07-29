@@ -15,7 +15,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke(244, 244, 0);
+  stroke('rgb(244, 244, 0)');
 }
 
 function draw () {
@@ -44,7 +44,10 @@ function keyPressed() {
     b = 0;
   }
   if (key === 'y'){
-    stroke(244, 244, 0);
+    stroke
+    r = 244;
+    g = 244;
+    b = 0;
   }
   if (key === 'i') {
     increase += 5;

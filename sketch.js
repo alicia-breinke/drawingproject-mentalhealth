@@ -4,9 +4,7 @@ var decrease = 5;
 var r = 244;
 var g = 64;
 var b = 0;
-let y;
 var i = increase;
-var d = decrease;
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');

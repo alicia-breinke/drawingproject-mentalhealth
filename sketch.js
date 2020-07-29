@@ -48,10 +48,10 @@ function keyPressed() {
     g = 255;
     b = 0;
   }
-  if (keyCode === UP_ARROW) {
-    increase += 5;
-  } else if (keyCode === DOWN_ARROW) {
-    decrease -= 5;
+  if (keyCode === 'UP_ARROW') {
+    increase = +5;
+  } else if (keyCode === 'DOWN_ARROW') {
+    decrease = -5;
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

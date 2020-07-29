@@ -50,7 +50,8 @@ function keyPressed() {
   }
   if (key === 'i') {
     increase += 5;
-  } else if (key === 'd') {
+  }
+  if (key === 'd') {
     decrease -= 5;
   }
   if (key === 'c'){

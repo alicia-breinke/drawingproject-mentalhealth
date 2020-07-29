@@ -1,7 +1,7 @@
 let img;
 var increase = 5;
 var decrease = 5;
-var r = 255;
+var r = 245;
 var g = 64;
 var b = 0;
 let d;
@@ -13,7 +13,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke ('rgb(255, 255, 0)');
+  stroke ('rgb(245, 245, 0)');
 }
 
 function draw () {
@@ -43,8 +43,8 @@ function keyPressed() {
     b = 0;
   }
   if (key === 'd'){
-    r = 64;
-    g = 64;
+    r = 245;
+    g = 245;
     b = 0;
   }
   if (keyCode === 'UP_ARROW') {

@@ -13,7 +13,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke ('rgb(255, 255, 0)');
+  stroke ('rgb(245, 245, 0)');
 }
 
 function draw () {

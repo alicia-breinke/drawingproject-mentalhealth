@@ -39,7 +39,7 @@ function keyPressed() {
   }
   if (key === 'b') {
     r = 0;
-    g = 0;
+    g = 64;
     b = 64;
   }
   if (key === 'd'){

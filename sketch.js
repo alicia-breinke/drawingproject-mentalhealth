@@ -40,7 +40,9 @@ function keyPressed() {
     b = 0;
   }
   if (key === 'd'){
-    stroke('rgb(245, 221, 0)');
+    r = 245;
+    g = 221;
+    b = 0;
   }
   if (key === 'i') {
     increase += 5;

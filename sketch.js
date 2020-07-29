@@ -2,8 +2,8 @@ let img;
 var increase = 5;
 var decrease = 5;
 var r = 255;
-var g = 64;
-var b = 255;
+var g = 255;
+var b = 0;
 let d;
 let c;
 function preload() {
@@ -34,13 +34,13 @@ function keyPressed() {
   }
   if (key === 'g') {
     r = 0;
-    g = 64;
+    g = 255;
     b = 0;
   }
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 255;
+    b = 0;
   }
   if (key === 'd'){
     r = 245;

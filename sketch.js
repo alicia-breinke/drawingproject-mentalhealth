@@ -42,12 +42,6 @@ function keyPressed() {
     g = 0;
     b = 0;
   }
-  if (key === 'y'){
-    stroke
-    r = 244;
-    g = 244;
-    b = 0;
-  }
   if (key === 'i') {
     increase += 5;
   }

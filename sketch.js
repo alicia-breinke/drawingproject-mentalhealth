@@ -2,9 +2,9 @@ let img;
 var increase = 5;
 var decrease = 5;
 var r = 255;
-var g = 255;
-var b = 255;
-let d;
+var g = 64;
+var b = 0;
+var d = '(255, 255, 0)'
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');
@@ -34,13 +34,13 @@ function keyPressed() {
   }
   if (key === 'g') {
     r = 0;
-    g = 255;
+    g = 64;
     b = 0;
   }
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 255;
+    b = 0;
   }
   if (key === 'd'){
     r = 245;

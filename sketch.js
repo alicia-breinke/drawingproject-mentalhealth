@@ -3,7 +3,7 @@ var increase = 5;
 var decrease = 5;
 var r = 244;
 var g = 64;
-var b = 0;
+var b = 30;
 let y;
 var i = increase;
 var d = decrease;
@@ -41,7 +41,7 @@ function keyPressed() {
   if (key === 'b') {
     r = 0;
     g = 0;
-    b = 0;
+    b = 30;
   }
   if (key === 'y'){
     r = 255;

@@ -49,9 +49,9 @@ function keyPressed() {
     b = 0;
   }
   if (keyCode === UP_ARROW) {
-    var increase += 5;
+    increase += 5;
   } else if (keyCode === DOWN_ARROW) {
-    var decrease -= 5;
+    decrease -= 5;
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

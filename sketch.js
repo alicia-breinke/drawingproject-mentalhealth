@@ -5,8 +5,6 @@ var r = 244;
 var g = 64;
 var b = 0;
 let d;
-let a;
-let s;
 let c;
 function preload() {
 img = loadImage('assets/drawing-background.jpg');
@@ -49,9 +47,9 @@ function keyPressed() {
     b = 0;
   }
   if (keyCode === 'UP_ARROW') {
-    increase = 5;
+    increase += 5;
   } else if (keyCode === 'DOWN_ARROW') {
-    decrease = 5;
+    decrease -= 5;
   }
   if (key === 'c'){
     saveCanvas(c, 'myCanvas', 'jpg');

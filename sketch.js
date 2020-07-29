@@ -12,14 +12,13 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke(r, g, b, 100);
+  stroke('rgb(244, 244, 0)');
 }
-
 function draw () {
   strokeWeight(increase);
     if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
-  stroke(244, 244, 0);
+  stroke(r, g, b, 100);
   }
 }
 

@@ -20,6 +20,7 @@ function setup(){
 
 function draw () {
   strokeWeight(increase);
+  strokeWeight(decrease);
     if (mouseIsPressed) {
   line(mouseX, mouseY, pmouseX, pmouseY);
   stroke(r, g, b, 100);

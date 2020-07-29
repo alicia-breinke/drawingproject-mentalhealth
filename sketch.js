@@ -1,6 +1,6 @@
 let img;
 var increase = 5;
-var r = 245;
+var r = 255;
 var g = 64;
 var b = 0;
 let d;
@@ -13,7 +13,7 @@ function setup(){
   c = createCanvas(975, 506);
   background(100, 100, 100);
   image(img, 50, 50);
-  stroke('rgb(245, 245, 0)');
+  stroke('rgb(255, 255, 0)');
 }
 function draw () {
   strokeWeight(increase);
@@ -25,7 +25,7 @@ function draw () {
 
 function keyPressed() {
   if (key === 'r') {
-    r = 245;
+    r = 255;
     g = 0;
     b = 0;
   }
@@ -40,7 +40,7 @@ function keyPressed() {
     b = 0;
   }
   if (key === 'd'){
-    stroke(245, 245, 0);
+    stroke(255, 255, 0);
   }
   if (key === 'i') {
     increase += 5;

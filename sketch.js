@@ -3,6 +3,7 @@ var increase = 5;
 var r = 245;
 var g = 64;
 var b = 0;
+let d;
 let i;
 let c;
 function preload() {
@@ -37,6 +38,9 @@ function keyPressed() {
     r = 0;
     g = 0;
     b = 0;
+  }
+  if (key === 'd'){
+    stroke('rgb(245, 221, 0)');
   }
   if (key === 'i') {
     increase += 5;
